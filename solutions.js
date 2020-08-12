@@ -33,11 +33,11 @@ function not(input){
 }
 
 function addOne(input){
-    return parseInt(input) + 1;
+    return Number(input) + 1;
 }
 
 function isEven(input){
-    return input % 2 == 0;
+    return parseInt(input) % 2 == 0;
 }
 
 function isIdentical(input1, input2){
@@ -46,4 +46,16 @@ function isIdentical(input1, input2){
 
 function isEqual(input1, input2){
     return input1 == input2;
+}
+
+function or(input1, input2){
+    return  input1 || input2
+}
+
+function and(input1, input2){
+    return input1 && input2
+}
+
+function concat(input1, input2){
+    return input1.toString() + input2.toString();
 }
