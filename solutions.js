@@ -24,3 +24,7 @@
 function isTrue(input) {
     return input === true;
 }
+
+var isFalse = function(input){
+    return input === false;
+}
